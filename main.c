@@ -1,4 +1,5 @@
 #include "monty.h"
+extentT extent = {NULL, NULL, NULL, 0};
 /**
 * main - main entry
 * @argc: argument count
@@ -7,7 +8,6 @@
 */
 int main(int argc, char *argv[])
 {
-	extentT extent = {NULL, NULL, NULL, 0};
 	ssize_t readList = 1;
 	FILE *fileList;
 	char *contentList;
@@ -30,8 +30,8 @@ int main(int argc, char *argv[])
 	while (readList > 0)
 	{
 		contentList = NULL;
-		readList = getline(&contentList, &sizeList, fileList);
 		extent.contentList = contentList;
+		readList = getline(&contentList, &sizeList, fileList);
 		counter++;
 		if (readList > 0)
 		{
