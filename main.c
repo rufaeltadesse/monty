@@ -1,5 +1,4 @@
 #include "monty.h"
-extentT extent = {NULL, NULL, NULL, 0};
 /**
 * main - main entry
 * @argc: argument count
@@ -8,13 +7,14 @@ extentT extent = {NULL, NULL, NULL, 0};
 */
 int main(int argc, char *argv[])
 {
+	extentT extent = {NULL, NULL, NULL, 0};
 	ssize_t readList = 1;
 	FILE *fileList;
 	char *contentList;
 	size_t sizeList = 0;
 	unsigned int counter = 0;
 	stack_t *stackList = NULL;
-	
+
 	if (argc != 2)
 	{
 		fprintf(stderr, "USAGE: monty file\n");

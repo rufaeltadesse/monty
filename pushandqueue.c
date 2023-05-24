@@ -74,7 +74,6 @@ void addqueue(stack_t **headEntry, int n)
 	}
 }
 
-
 /**
  * pushfun - main entry
  * @headEntry: variable for head
@@ -83,7 +82,7 @@ void addqueue(stack_t **headEntry, int n)
 */
 void pushfun(stack_t **headEntry, unsigned int count)
 {
-	int n; 
+	int n;
 	int j = 0;
 	int flagCount = 0;
 
