@@ -1,4 +1,4 @@
-#include "main.h"
+#include "monty.h"
 /**
  * swapfun - main entry
  * @headEntry: is a function

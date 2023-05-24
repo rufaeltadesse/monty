@@ -1,4 +1,4 @@
-#include "main.h"
+#include "monty.h"
 /**
  * popfun - main entry
  * @headEntry: is a variable head

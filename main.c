@@ -1,4 +1,4 @@
-#include "main.h"
+#include "monty.h"
 extentT extent = {NULL, NULL, NULL, 0};
 /**
 * main - main entry

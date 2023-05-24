@@ -1,4 +1,4 @@
-#include "main.h"
+#include "monty.h"
 /**
   *nopfun- main entry
   *@headEntry: variable

@@ -1,4 +1,4 @@
-#include "main.h"
+#include "monty.h"
 /**
 * free_stack - main entry
 * @headEntry: is a variable
